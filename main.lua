@@ -2,8 +2,8 @@ local const = require "const"
 
 local BUTTON_SIZE = const.BUTTON_SIZE -- for brevity
 
-local ACTIVE_COLOR = {1, 1, 1}
-local INACTIVE_COLOR = {0.5, 0.5, 0.5}
+local ACTIVE_COLOR = {3/4, 3/4, 3/4}
+local INACTIVE_COLOR = {1/4, 1/4, 1/4}
 
 function drawRect(x_tile, y_tile)
 	love.graphics.rectangle("fill",
