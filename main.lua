@@ -3,6 +3,7 @@ local INACTIVE_COLOR = {1/4, 1/4, 1/4}
 
 local configs = {
 	require "configs/ibuffalo",
+	require "configs/mayflash_gamecube",
 }
 
 local pad = {nil}
