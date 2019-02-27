@@ -64,6 +64,9 @@ local inputs = {
 	},
 }
 
+local sdl = require "sdl"
+sdl.joystick_allow_background_events()
+
 -- display the inputs of the last used joystick
 function love.joystickpressed(joystick, button)
 	pad[0] = joystick
