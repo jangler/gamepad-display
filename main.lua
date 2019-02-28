@@ -1,7 +1,7 @@
 local const = require "const"
 local UNIT_SIZE = const.UNIT_SIZE -- for brevity
 
-local ACTIVE_COLOR = {3/4, 3/4, 3/4}
+local ACTIVE_COLOR = {1/2, 1/2, 1/2}
 local INACTIVE_COLOR = {1/4, 1/4, 1/4}
 
 local configs = {
