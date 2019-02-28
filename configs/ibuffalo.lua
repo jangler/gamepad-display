@@ -4,7 +4,7 @@ return {
 	name = "USB,2-axis 8-button gamepad  ",
 	drawBackground = function() draw.rect(2, 3.5, 1, 1) end,
 	width = 13,
-	height = 7,
+	height = 6.5,
 	inputs = {
 		left = {
 			isActive = function(js) return js:getAxis(1) < 0 end,
