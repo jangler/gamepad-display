@@ -1,3 +1,3 @@
 return {
-	BUTTON_SIZE = 20 -- pixels, diameter
+	UNIT_SIZE = 20 -- scaling factor in pixels, average button diameter
 }
